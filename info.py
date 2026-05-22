@@ -67,7 +67,7 @@ MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or F
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://officialcryptotech07_db_user:294753618@cluster0.6fzrrwm.mongodb.net/?appName=Cluster0")   # This Db Is For Other Data Store
-F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
+F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://technicalak:294753618@cluster0.oei1nsl.mongodb.net/?appName=Cluster0")   # This Db Is For File Data Store
 S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
